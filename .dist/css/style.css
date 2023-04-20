@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#formlogin {
+    /* background: url(../image/bg.jpg) no-repeat center top/cover; */
+    background-image: linear-gradient(157.5deg, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 14%,rgb(116, 116, 116) 14%, rgb(116, 116, 116) 73%,rgb(139, 139, 139) 73%, rgb(139, 139, 139) 74%,rgb(161, 161, 161) 74%, rgb(161, 161, 161) 75%,rgb(183, 183, 183) 75%, rgb(183, 183, 183) 79%,rgb(206, 206, 206) 79%, rgb(206, 206, 206) 88%,rgb(228, 228, 228) 88%, rgb(228, 228, 228) 100%),linear-gradient(45deg, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 14%,rgb(116, 116, 116) 14%, rgb(116, 116, 116) 73%,rgb(139, 139, 139) 73%, rgb(139, 139, 139) 74%,rgb(161, 161, 161) 74%, rgb(161, 161, 161) 75%,rgb(183, 183, 183) 75%, rgb(183, 183, 183) 79%,rgb(206, 206, 206) 79%, rgb(206, 206, 206) 88%,rgb(228, 228, 228) 88%, rgb(228, 228, 228) 100%),linear-gradient(135deg, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 14%,rgb(116, 116, 116) 14%, rgb(116, 116, 116) 73%,rgb(139, 139, 139) 73%, rgb(139, 139, 139) 74%,rgb(161, 161, 161) 74%, rgb(161, 161, 161) 75%,rgb(183, 183, 183) 75%, rgb(183, 183, 183) 79%,rgb(206, 206, 206) 79%, rgb(206, 206, 206) 88%,rgb(228, 228, 228) 88%, rgb(228, 228, 228) 100%),linear-gradient(90deg, rgb(6, 6, 6),rgb(231, 231, 231)); background-blend-mode:overlay,overlay,overlay,normal;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+.login-container h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 35px;
+}
+
+.login-container {
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 50%;
+}
+
+.form-logo {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.form-element {
+    width: 100%;
+}
+
+.form-element label {
+    display: block;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+
+.form-element input[type=text],
+.form-element input[type=password] {
+    font-size: 22px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #888888;
+}
+
+.login-container button {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 1rem;
+    letter-spacing: 6px;
+    margin-top: 20px;
+    border: none;
+
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.507);
+    border: 1px solid grey;
+    border-radius: 4px;
+    height: auto;
+    padding: 2rem;
+    box-shadow: 5px 6px 18px #252424;
+    opacity: 0.9;
+}
+
+.error {
+    font-weight: bold;
+    color: red;
+}
+
